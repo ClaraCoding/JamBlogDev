@@ -31,7 +31,6 @@ ol {
 ul li {
     border: 1px white solid;
     border-radius: 3px;
-    font-size: 1em;
     margin: 5px;
     padding: 5px;
     background-color: darkviolet;
@@ -54,3 +53,11 @@ article {
     padding: 5px;
 }
 
+/*travailler la partie responsive*/
+
+@media all and (max-width: 1280px) {
+    html {
+        font-family: arial;
+        background-color: whitesmoke;
+        font-size: medium;
+    }
