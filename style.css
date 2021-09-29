@@ -1,4 +1,56 @@
-html {
-    font-color: green;
 
+html {
+    font-family: Calibri, monospace;
+    background-color: white;
 }
+
+body{
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+}
+
+
+ul {
+    list-style: none outside none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+ol {
+    list-style: none outside none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+
+ul li {
+    border: 1px white solid;
+    border-radius: 3px;
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px;
+    background-color: darkviolet;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+
+article {
+   border: solid darkviolet 1px;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px;
+}
+

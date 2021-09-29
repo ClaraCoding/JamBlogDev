@@ -1,6 +1,7 @@
 ---
 layout: root.html
 title: A propos de moi
+description: La page où je me présente
 
 ---
 
