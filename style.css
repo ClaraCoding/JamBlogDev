@@ -1,16 +1,22 @@
 
 html {
     font-family: Calibri, monospace;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 body{
     text-align: center;
-    width: 90vw;
-    margin: auto;
+    width: 100%;
+    margin-right: 0;
     display: flex;
     min-height:100vh;
     flex-direction: column;
+}
+
+main {
+    flex:1;
+    background: white;
+    opacity: 75%;
 }
 
 
@@ -21,7 +27,6 @@ ul {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-evenly;
-
     padding:0;
 }
 
@@ -60,12 +65,20 @@ article {
     margin: 5px;
     border-radius: 3px;
     padding: 5px;
+
+
 }
 
 img[src*="#thumbnail"] {
     width:150px;
     height:100px;
 }
+
+body  {
+    background-image: url("https://www.lamodeuse.com/150805-thickbox_default/jeans-skinny-bleu-dechire.jpg");
+
+}
+
 
 
 /* partie responsive qui déchire*/
@@ -75,6 +88,13 @@ img[src*="#thumbnail"] {
     img, svg {
         display: none;
         }
+    body {
+        background-image: none;
+        background-color: whitesmoke;
+    }
+    main {
+        background: whitesmoke;
+    }
 
 }
 
