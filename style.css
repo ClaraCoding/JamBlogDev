@@ -1,7 +1,7 @@
 
 html {
     font-family: Calibri, monospace;
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 body{
@@ -14,12 +14,14 @@ body{
 }
 
 
+
 ul {
     list-style: none outside none;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-evenly;
+
     padding:0;
 }
 
@@ -29,6 +31,7 @@ ol {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-evenly;
+    padding:0;
 }
 
 
@@ -38,10 +41,12 @@ ul li {
     margin: 5px;
     padding: 5px;
     background-color: darkviolet;
+    min-width: 110px;
 }
 
 a {
     text-decoration: none;
+    color: purple;
 }
 
 ul li a {
@@ -69,7 +74,6 @@ img[src*="#thumbnail"] {
 @media only screen and (max-width: 600px) {
     img, svg {
         display: none;
-        background-color: whitesmoke;
         }
 
 }
