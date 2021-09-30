@@ -8,6 +8,9 @@ body{
     text-align: center;
     width: 90vw;
     margin: auto;
+    display: flex;
+    min-height:100vh;
+    flex-direction: column;
 }
 
 
@@ -17,6 +20,7 @@ ul {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-evenly;
+    padding:0;
 }
 
 ol {
@@ -53,11 +57,21 @@ article {
     padding: 5px;
 }
 
-/*travailler la partie responsive*/
+img[src*="#thumbnail"] {
+    width:150px;
+    height:100px;
+}
 
-@media all and (max-width: 1280px) {
-    html {
-        font-family: arial;
+
+/* partie responsive qui déchire*/
+
+/*design pour petits écrans*/
+@media only screen and (max-width: 600px) {
+    img, svg {
+        display: none;
         background-color: whitesmoke;
-        font-size: medium;
-    }
+        }
+
+}
+
+
